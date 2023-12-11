@@ -7,6 +7,10 @@ function openModal() {
     document.getElementById('myModal').style.display = 'none';
   }
 
+  function closeModalEdit() {
+    document.getElementById('updateModal').style.display = 'none';
+  }
+
   function closeEditModal() {
     document.getElementById('editModal').style.display = 'none';
   }
